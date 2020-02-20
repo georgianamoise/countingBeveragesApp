@@ -1,0 +1,133 @@
+.welcomeAnimation{
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+    animation: readyToDrink 10s none;
+}
+     @keyframes readyToDrink{
+            0%{transform: rotate(0deg);}
+            5%{transform: rotate(-1deg);}
+            10%{transform: rotate(1deg);}
+            15%{transform: rotate(-1deg);}
+            20%{transform: rotate(1deg);}
+            25%{transform: rotate(-1deg);}
+            30%{transform: rotate(1deg);}
+            35%{transform: rotate(-1deg);}
+            40%{transform: rotate(1deg);}
+            45%{transform: rotate(-1deg);}
+            50%{transform: rotate(2deg);}
+            55%{transform: rotate(-2deg);}
+            60%{transform: rotate(1deg);}
+            65%{transform: rotate(-1deg);}
+            70%{transform: rotate(1deg);}
+            75%{transform: rotate(-1deg);}
+            80%{transform: rotate(2deg);}
+            85%{transform: rotate(-2deg); opacity:0.6;}
+            90%{transform: rotate(1deg); opacity:0.4;}
+            95%{transform: rotate(-1deg); opacity:0.2;}
+            100%{transform: rotate(1deg); opacity:0;}
+    }
+
+.welcomeScreenWine{
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+    animation: shaky 14s infinite;
+}
+
+
+    @keyframes shaky{
+            0%{transform: rotate(0deg);}
+            10%{transform: rotate(1deg);}
+            20%{transform: rotate(-1deg);}
+            30%{transform: rotate(1deg);}
+            40%{transform: rotate(-1deg);}
+            50%{transform: rotate(1deg);}
+            60%{transform: rotate(-1deg);}
+            70%{transform: rotate(1deg);}
+            80%{transform: rotate(-1deg);}
+            90%{transform: rotate(1deg);}
+            100%{transform: rotate(-1deg);}
+    }
+
+.welcomeScreenWineDouble{
+    position: absolute;
+    top: 45vw;
+    left: 25vw;
+    animation: doubleWine 14s infinite;
+}
+
+
+    @keyframes doubleWine{
+            0%{transform: rotate(0deg);}
+            5%{transform: rotate(-1deg);}
+            10%{transform: rotate(1deg);}
+            15%{transform: rotate(-1deg);}
+            20%{transform: rotate(1deg);}
+            25%{transform: rotate(-1deg);}
+            30%{transform: rotate(1deg);}
+            35%{transform: rotate(-1deg);}
+            40%{transform: rotate(1deg);}
+            45%{transform: rotate(-1deg);}
+            50%{transform: rotate(2deg);}
+            55%{transform: rotate(-2deg);}
+            60%{transform: rotate(1deg);}
+            65%{transform: rotate(-1deg);}
+            70%{transform: rotate(1deg);}
+            75%{transform: rotate(-1deg);}
+            80%{transform: rotate(2deg);}
+            85%{transform: rotate(-2deg); opacity:0.6;}
+            90%{transform: rotate(1deg); opacity:0.4;}
+            95%{transform: rotate(-1deg); opacity:0.2;}
+            100%{transform: rotate(1deg); opacity:0;}
+    }
+
+
+body {
+    background-color: #3F2413;
+}
+
+p{
+    color: #F37762;
+    font-size: 8vw;
+    text-align: center;
+    padding-bottom: 0vw;
+}
+
+#communicateToUser{
+/*
+    position: absolute;
+    top:10vw;
+    left:13vw;
+*/
+    margin-top: -8vw;
+    text-align: center;
+    font-size: 7vw;
+    color: #F37762;
+}
+
+.welcomeText{
+    position: absolute;
+    top: 118vw;
+    left: 30vw;
+    font-size: 9vw;
+    color: #F37762;
+}
+
+#beer{
+    position: absolute;
+    top:31vw;
+    left:9vw;
+}
+
+#wine{
+    position: absolute;
+    top:58vw;
+    left:52vw;
+}
+
+#shot{
+    position: absolute;
+    top: 110vw;
+    left: 26vw;
+}
